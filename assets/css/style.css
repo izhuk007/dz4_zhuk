@@ -577,7 +577,10 @@ a {
 .footer__container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+
+.footer__wrap:not(:first-child) {
+    margin-top: 20px;
 }
 
 .footer__wrap:nth-child(2) {
