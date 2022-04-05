@@ -260,28 +260,28 @@ a {
     justify-content: space-between;
 }
 
-.holidays-images {
+.images-hotel {
     position: relative;
 }
 
-.holidays-main-img,
-.holidays-add-img {
+.images-hotel__main,
+.images-hotel__sec {
     border-radius: 10px;
 }
 
-.holidays-add-img,
-.holidays-sprite-img {
+.images-hotel__sec,
+.images-hotel__sprite {
     position: absolute;
     z-index: -1;
 }
 
-.holidays-add-img {
+.images-hotel__sec {
     top: -47px;
     right: -35px;
     opacity: 0.5;
 }
 
-.holidays-sprite-img {
+.images-hotel__sprite {
     bottom: -78px;
     left: -55px;
 }
@@ -364,7 +364,6 @@ a {
 
 .gallery-item {
     position: relative;
-
 }
 
 .gallery__item:first-child {
@@ -425,6 +424,7 @@ a {
 
 .gallery-item__img {
     border-radius: 10px;
+    display: block;
 }
 
 .gallery-item__price {
