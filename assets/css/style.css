@@ -205,7 +205,7 @@ a {
 
 @media (max-width: 1023.75px) {
     .header__logo {
-        margin-right: 0;
+        margin-right: 15px;
     }
 
     .header__nav {
@@ -216,13 +216,6 @@ a {
         display: block;
     }
 }
-
-@media (max-width: 424.75px) {
-    .header__btn {
-        flex: 1 0 100%;
-    }
-}
-
 
 /*INTRO*/
 
