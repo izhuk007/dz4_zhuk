@@ -204,10 +204,6 @@ a {
 }
 
 @media (max-width: 1023.75px) {
-    .logo__img {
-        padding-right: 10px;
-    }
-
     .header__logo {
         margin-right: 0;
     }
@@ -218,6 +214,12 @@ a {
 
     .burger-menu {
         display: block;
+    }
+}
+
+@media (max-width: 424.75px) {
+    .header__btn {
+        flex: 1 0 100%;
     }
 }
 
